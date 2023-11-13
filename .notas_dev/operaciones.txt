@@ -1,0 +1,51 @@
+MERCADERIA
+-Comprar mercaderia
+-Vender mercaderia
+-Ajustar precio de mercadería (mostrar precio actual, pedir nuevo precio y mostrar la diferencia de precio en porcentaje).
+
+
+[?] COMÚNES
+-Comprar...
+-Vender...
+-Pagar...
+-Cobrar...
+
+
+DEPOSITOS/EXTRACCIONES
+-Depositar cheque
+-Depositar efectivo
+-Extraer cheque
+-Extraer efectivo
+
+
+PAGAR
+-Salario empleados
+-Alquiler
+-Deuda que debemos (seleccionar de una lista de deudas o por comprobante, puede ser por mercaderia o por varios)
+
+
+COBRAR
+-Alquiler
+-Deuda que nos deben (ya sean por mercadería o por varias. Mismo funcionamiento que en Pagar)
+
+
+FONDO FIJO
+-Crear f.f
+-Usar f.f (mostrar ff de una lista de ff disponibles)
+-Reponer f.f (mostrar ff de una lista de ff disponibles + "restante/maximo" por cada uno). Ej. Gastos oficina $500/$2300
+
+
+MONEDA EXTRANJERA
+-Comprar m.e
+-Vender m.e (cantidad y precio)
+	· el precio de venta se indica dentro de la operacion
+
+
+OTRAS
+-Pagar IVA
+-Arqueo de caja
+-Bien dañado, robado o vencido (selec dañado/robado y, si lo hay, coste de reparacion/recuperacion/reposicion)
+
+
+-----------------------------
+[-] GASTOS : Removido

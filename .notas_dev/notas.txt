@@ -1,0 +1,96 @@
+Ideas sueltas:
+· Incluir un manual (PDF) simple.
+· Hacer una versión móvil
+
+-------------------------------------------------------------------------------------------------------------------
+
+Menu de navegación:
+-[?] Modo nocturno (Radio)
+-Empresa (Comprobantes + deudas)
+-{ SEP }
+-Preferencias
+-Salir
+
+-------------------------------------------------------------------------------------------------------------------
+
+Datos  a guardar (en crudo):
+-Registros (diario)
+-Balances
+-Inventario
+-Comprobantes
+-FF,ME, Deudas a favor/en contra
+
+
+·Registros:
+	a) arr(string)
+	b) arch.txt (cada línea es un registro)
+·Balances:
+	a) arr(balance(prod, fecha, valor))
+·Inventario:
+	-Unidades:
+		a) arch.txt : (línea -> "nombre|seccion|stock|pu|pt". "Papas|Verduleria|15|800|12000")
+		b) BD: (reg -> nombre, seccion, stock, pu, pt).
+	-Movimientos:
+		a) arch.txt : (línea → "fecha|comprobante|producto|es_entrada|c|pu|pt")
+		Procesado: Tabla(fecha, comprobante, producto, entradas(c,pu,pt), salidas(c,pu,pt))
+·Empresa:
+	-FF
+		a) arch.txt : (línea -> "$actual/$máximo usos...". "200/3000 Oficina")
+	-ME:
+		a) arch.txt : (línea -> "moneda unidades valor_total". "USD 500 220")
+	-Deudas
+	-Comprobantes
+		a) arch.txt : (línea -> "doc n°". "FO 512")
+
+Todos pueden usar BD o se pueden escribir en archivos de texto
+
+-------------------------------------------------------------------------------------------------------------------
+
+BD Inventario:
+[Campos]
+-fecha
+-detalle
++nombre_producto
++seccion_producto
+-cantidad
+-precio_unitario
+-precio_total
+-es_entrada
+-cantidad_stock
+-precio_unitario_stock
+-precio_total_stock
+
+Inventario:
+Se divide en las tablas:
+-Unidades
+-Movimientos
+
+[BD] Unidades
+-Nombre
+-Sección
+-Unidades en stock/Unidades restantes
+-Precio unitario
+-Valor total
+
+[BD] Movimientos
+-Fecha
+-Comprobante
+-Producto
+-Es_Entrada
+-Cantidad
+-Precio unitario
+-Precio total
+
+-------------------------------------------------------------------------------------------------------------------
+
+Agregar a preferencias:
+
+-------------------------------------------------------------------------------------------------------------------
+
+Vista inventario:
+[Tabla unidades físicas]
+Al hacer click derech sobre un elemento, se muestra un menú con las opciones:
+	·comprar
+	·vender
+	·producto roto, dañado o vencido
+	·[?] eliminar

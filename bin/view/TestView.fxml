@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.TestUIController">
+   <children>
+      <Accordion layoutX="14.0" layoutY="14.0" styleClass="CreateAccordion">
+        <panes>
+          <TitledPane expanded="false" text="Mercadería">
+            <content>
+                  <VBox>
+                     <children>
+                        <Button mnemonicParsing="false" text="Comprar mercaderia" />
+                        <Button mnemonicParsing="false" text="Vender mercaderia" />
+                     </children>
+                  </VBox>
+            </content>
+          </TitledPane>
+          <TitledPane expanded="false" text="Comunes">
+               <content>
+                  <VBox>
+                     <children>
+                        <Button mnemonicParsing="false" text="Comprar..." />
+                        <Button mnemonicParsing="false" text="Vender..." />
+                        <Button mnemonicParsing="false" text="Pagar..." />
+                        <Button mnemonicParsing="false" text="Cobrar..." />
+                     </children>
+                  </VBox>
+               </content>
+          </TitledPane>
+          <TitledPane expanded="false" text="Depositos/Extracciones">
+               <content>
+                  <VBox>
+                     <children>
+                        <Button mnemonicParsing="false" text="Depositar cheque" />
+                        <Button mnemonicParsing="false" text="Depositar efectivo" />
+                        <Button mnemonicParsing="false" text="Extraer cheque" />
+                        <Button mnemonicParsing="false" text="Extraer efectivo" />
+                     </children>
+                  </VBox>
+               </content>
+          </TitledPane>
+            <TitledPane expanded="false" text="Gastos" />
+            <TitledPane expanded="false" text="Fondo fijo">
+               <content>
+                  <VBox>
+                     <children>
+                        <Button mnemonicParsing="false" text="Crear fondo fijo" />
+                        <Button mnemonicParsing="false" text="Usar fondo fijo" />
+                        <Button mnemonicParsing="false" text="Recargar fondo fijo" />
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+            <TitledPane expanded="false" text="Moneda extranjera">
+               <content>
+                  <VBox>
+                     <children>
+                        <Button mnemonicParsing="false" text="Comprar moneda extranjera" />
+                        <Button mnemonicParsing="false" text="Vender moneda extranjera" />
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+            <TitledPane expanded="false" text="Otras" />
+        </panes>
+      </Accordion>
+      <ListView fx:id="listView" layoutX="245.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" />
+      <TreeView fx:id="treeView" layoutX="15.0" layoutY="214.0" prefHeight="125.0" prefWidth="200.0" showRoot="false" />
+   </children>
+</AnchorPane>

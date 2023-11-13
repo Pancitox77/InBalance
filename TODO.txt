@@ -1,0 +1,26 @@
+Ordenadas:
+-CSS: Mouse sobre un btnNavi: Agrandar boton
+-Vistas:
+	A) Balances
+	B) Primera ejecución
+	C) Agregar registro (2)
+-Definir la estructura de las bases de datos (Balance, inventario, registros, movimientos, etc)
+-BD Inventario Mysql
+-Controlador BD Inventario
+
+
+Largo plazo:
+-Sección Balance muestre un gráfico de ganancias y pérdidas
+-Hacer todas las vistas por separado y luego juntarlas en app
+	A) Registros, Balance, Agregar, Inventario, Comprobantes, Preferencias y Ayuda.
+-Controlador Preferencias
+-[Librodiario] Vista por linea, por carta informativa y por tabla.
+-Controladores de vistas
+
+
+Corto plazo:
+-Rehacer BD Inventario en MySql (cambiar los campos)
+
+
+Al rehacer:
+-Obj básicos (objRegistro)

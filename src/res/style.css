@@ -1,0 +1,13 @@
+.CreateAccordion Button {
+    -fx-background-color: transparent;
+}
+
+.CreateAccordion Button:hover {
+    -fx-text-fill: blue;
+    -fx-underline: true;
+    -fx-cursor: hand;
+}
+
+.CreateAccordion TextField {
+    -fx-background-color: antiquewhite;
+}
