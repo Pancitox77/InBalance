@@ -19,6 +19,7 @@ Datos  a guardar (en crudo):
 -Inventario
 -Comprobantes
 -FF,ME, Deudas a favor/en contra
+-Datos bancarios (nombre de bancos, efectivo depositado y cheques disponibles/a cobrar)
 
 
 ·Registros:
@@ -39,9 +40,12 @@ Datos  a guardar (en crudo):
 	-ME:
 		a) arch.txt : (línea -> "moneda unidades valor_total". "USD 500 220")
 	-Deudas
+	-Banco (efectivo + cheques)
 	-Comprobantes
 		a) arch.txt : (línea -> "doc n°". "FO 512")
 
+"Empresa" puede figurar como un item en el menu de navegación o en la pestaña "Cuentas" de la sección "Balance"
+	(de ser así, ¿renombrar Cuentas a Empresa/Informe?).
 Todos pueden usar BD o se pueden escribir en archivos de texto
 
 -------------------------------------------------------------------------------------------------------------------
