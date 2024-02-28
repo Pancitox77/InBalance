@@ -11,11 +11,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.view.CreateViewControllerA">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.view.CreateViewControllerA">
    <children>
       <Accordion layoutX="265.0" layoutY="27.0" styleClass="CreateAccordion">
          <panes>
-            <TitledPane expanded="false" text="Mercadería">
+            <TitledPane text="Mercadería">
                <content>
                   <VBox>
                      <children>
@@ -95,7 +95,7 @@
       <DatePicker fx:id="datePicker" editable="false" layoutX="27.0" layoutY="54.0" prefHeight="26.0" prefWidth="124.0" promptText="11/10/2023" />
       <Label layoutX="69.0" layoutY="36.0" text="Fecha:" />
       <Label layoutX="27.0" layoutY="107.0" text="N° de comprobante:" />
-      <TextField layoutX="27.0" layoutY="142.0" prefHeight="26.0" prefWidth="124.0" promptText="ej.: 512" />
+      <TextField layoutX="27.0" layoutY="146.0" prefHeight="26.0" prefWidth="124.0" promptText="ej.: 512" />
       <Separator layoutX="172.0" orientation="VERTICAL" prefHeight="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="172.0" AnchorPane.rightAnchor="462.0" AnchorPane.topAnchor="0.0" />
       <Text fill="#403f3f" layoutX="59.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(opcional)" />
    </children>

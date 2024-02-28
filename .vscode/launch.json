@@ -9,8 +9,24 @@
             "name": "App",
             "request": "launch",
             "mainClass": "main.App",
+            // "projectName": "InBalance_5ef6fed4",
+            "vmArgs": "--module-path /mnt/1798273C1E50646C/Media/Scripts/Librerias/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "UITest",
+            "request": "launch",
+            "mainClass": "main.UITest",
+            "projectName": "InBalance_5ef6fed4",
+            "vmArgs": "--module-path /mnt/1798273C1E50646C/Media/Scripts/Librerias/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "main.App",
             "projectName": "InBalance_8080555b",
-            "vmArgs": "--module-path /home/pancitox/Scripts/Librerias/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path /mnt/1798273C1E50646C/Media/Scripts/Librerias/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -18,15 +34,7 @@
             "request": "launch",
             "mainClass": "main.Test",
             "projectName": "InBalance_8080555b",
-            "vmArgs": "--module-path /home/pancitox/Scripts/Librerias/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
-            "name": "UITest",
-            "request": "launch",
-            "mainClass": "main.UITest",
-            "projectName": "InBalance_8080555b",
-            "vmArgs": "--module-path /home/pancitox/Scripts/Librerias/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path /mnt/1798273C1E50646C/Media/Scripts/Librerias/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }

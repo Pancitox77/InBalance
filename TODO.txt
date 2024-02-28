@@ -7,6 +7,7 @@ Ordenadas:
 -Definir la estructura de las bases de datos (Balance, inventario, registros, movimientos, etc)
 -BD Inventario Mysql
 -Controlador BD Inventario
+-Archivo config.json
 
 
 Largo plazo:
